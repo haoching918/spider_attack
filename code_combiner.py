@@ -7,9 +7,9 @@ parser = argparse.ArgumentParser(
                     prog='code_parser',
                     description='This utility combines all headers and sources into a single file. So that one can easily submit code to online judge system.')
 
-parser.add_argument("--header", nargs='+')
-parser.add_argument("--source", nargs='+')
-parser.add_argument("-o", "--output")
+parser.add_argument("--header", nargs='+', required=True)
+parser.add_argument("--source", nargs='+', required=True)
+parser.add_argument("-o", "--output", nargs=1, required=True)
 
 args=parser.parse_args()
 print(args.header)
