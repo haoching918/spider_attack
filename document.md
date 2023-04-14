@@ -44,7 +44,7 @@ const intPair operator %(const intPair &lhs, const int modulo);
 
 ## 架構
 
-![Untitled](https://file.notion.so/f/s/d2524a99-0fc8-4233-8093-d3aae63caa7f/Untitled.png?id=d1d118d3-9563-4bb7-ae42-b7656bf88d7d&table=block&spaceId=d6fb5fcf-fd22-4956-bf71-4828d973340c&expirationTimestamp=1681543144832&signature=4urXKcQhqwoAg4_eQeBN57bOxSj73pcC4Egz_yOsgTg&downloadName=Untitled.png)
+![](https://i.imgur.com/aMP1AfB.png)
 
 ## class Entity
 
