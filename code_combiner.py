@@ -9,7 +9,7 @@ parser = argparse.ArgumentParser(
 
 parser.add_argument("--header", nargs='+', required=True)
 parser.add_argument("--source", nargs='+', required=True)
-parser.add_argument("-o", "--output", nargs=1, required=True)
+parser.add_argument("-o", "--output", required=True)
 
 args=parser.parse_args()
 print(args.header)
